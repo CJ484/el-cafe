@@ -1,11 +1,17 @@
-html {
+.html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+.body {
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     box-sizing: border-box;
+    main {
+        background-color: var(--page-background);
+        clip-path: inset(10px 10px 10px 10px round 15px);      
+        padding: var(--spacing-md);
+        height: 90vh;
+    }
 }

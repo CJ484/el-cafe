@@ -1,0 +1,29 @@
+
+:root {
+    /* Font Sizes */
+    --font-size-sm: clamp(14px, 1.2vw, 16px);
+    --font-size-md: clamp(16px, 1.2vw, 18px);
+    --font-size-lg: clamp(18px, 1.2vw, 20px);
+
+    /*Icon Sizes*/
+    --icon-size: clamp(24px, 9.5vw, 30px);
+
+    /*Spacing*/
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+
+    /*Colors*/
+    --fixed-black: #000;
+    --fixed-white: #fff;
+
+    /*Font Weight*/
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /*Breakpoints*/
+    --breakpoint-mobile: 767px;
+    --breakpoint-tablet: 1024px;
+    --breakpoint-laptop: 1200px;
+}

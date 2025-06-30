@@ -1,7 +1,36 @@
+@use './mixins' as *;
 .header {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    &__logo {
+        font-family: 'Lobster', sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+        text-decoration: none;
+        color: var(--primary);
+    }
+    nav {
+        width: 50vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Michroma', sans-serif;
+        font-size: var(--font-size-lg);
+        gap: 1rem;
+    }
+    @media (max-width: 768px) {
+        &__orderButton {
+            display: none;
+        }
+    }
 }
 
 .footer {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
